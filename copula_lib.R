@@ -1,6 +1,6 @@
 load("dati_pseudo.RData")
 # Data are in the following format i.e. LONG FORMAT
-#  CODICE ETLEV1   PTL        DATA
+#      CODICE ETLEV1        PTL        DATA
 # 1	80478	1	426572.79	2014-08-21
 # 2	728215	3	68087.18	2013-02-01
 # 3	862286	4	347551.44	2008-05-07
@@ -26,8 +26,8 @@ mlosses <- function(dati){
 }
 # mlosses transform data uploaded from load("dati_pseudo.RData") 
 # in the following format i.e. SHORT FORMAT
-#  DATA_RIL        ET1       ET2         ET3          ET4           ET5         ET6       ET7
-# 1	2007-01-01	1580852.61	13125504    5115556.9	 4610128	291992.90	 33255.07	 3379720
+#         DATA_RIL        ET1            ET2              ET3         ET4           ET5                  ET6       ET7
+# 1     2007-01-01	1580852.61	13125504    5115556.9	 4610128	291992.90	 33255.07	 3379720
 # 2	2007-02-01	47430.63	4700840	    1168138.7	 1901531	48842.28	 56339.82	 1895047
 # 3	2007-03-01	562063.16	11638957	4199101.9	 79446932	1018598.83   89886.24	 5952838
 # .................................................................................
